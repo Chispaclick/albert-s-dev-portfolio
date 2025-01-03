@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar_container {
+    display: flex;
+    width: 100vw;
+    background-color: #000000;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .navbar_links {
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .theme_toggle-container {
+    display: flex;
+    width: 18%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    border: 0.1px solid #cccccc;
+    height: 30px;
+    padding: 5px;
+
+    
+  }
+
+  .navbar_navlinks {
+    font-size: .7rem;
+    font-family: Cormoran Garamond, sans-serif;
+    color: #cccccc;
+    margin: 0 2px;
+    padding: 10px;
+  }
+
+  .icon_weater {
+    width: 25px;
+  }
+}
