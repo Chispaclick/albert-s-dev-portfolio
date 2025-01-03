@@ -1,9 +1,10 @@
 import { NavLink } from "react-router-dom";
 import PhSunDimFill from "../icons/PhSunDimFill";
 import IxMoonFilled from "../icons/IxMoonFilled";
+
 import "./NavBar.css";
 
-export const NavBar = () => {
+export const NavBar = ({ theme }) => {
   return (
     <div className="navbar_container">
       <div className="navbar_links">
@@ -20,9 +21,10 @@ export const NavBar = () => {
         </ul>
       </div>
       <div className="theme_toggle-container">
-        <PhSunDimFill className="icon_weater" />
-        <IxMoonFilled className="icon_weater" />
+          <PhSunDimFill onClick={theme} className="icon_weather" />
       </div>
     </div>
   );
 };
+
+//<IxMoonFilled className="icon_weater" />

@@ -14,7 +14,7 @@
     width: 100vw;
     justify-content: center;
     align-items: center;
-    background-color: #000000;
+    padding: 25px 0;
   }
 
   .login_description {
@@ -23,7 +23,6 @@
     width: 90%;
     justify-content: center;
     align-items: center;
-    background-color: #000000;
     border: .2px solid #cccccc54;
     padding: 50px 0;
     border-radius: 10px;
@@ -47,7 +46,7 @@
     width: 90%;
     justify-content: center;
     align-items: center;
-    background-color: #000000;
+    background-color: #cccccc;
     border: .2px solid #cccccc54;
     border-radius: 8px;
     padding: 20px 0;
@@ -75,7 +74,6 @@
     font-size: 1rem;
     box-sizing: border-box;
     outline: none;
-    background-color: #0000003f;
     color: #cccccc;
   }
 
@@ -93,7 +91,6 @@
     align-items: center;
     width: 90%;
     padding: 10px;
-    background-color: #202020;
     font-size: 1rem;
     border: .2px solid #cccccc54;
     border-radius: 5px;

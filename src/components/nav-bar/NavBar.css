@@ -8,7 +8,6 @@
   .navbar_container {
     display: flex;
     width: 100vw;
-    background-color: #000000;
     justify-content: space-around;
     align-items: center;
   }
@@ -31,13 +30,15 @@ ul {
 
   .theme_toggle-container {
     display: flex;
-    width: 18%;
+    width: 16%;
     justify-content: space-between;
     align-items: center;
-    background-color: #000000;
-    border: 0.1px solid #cccccc;
-    height: 30px;
+
+    border: .2px solid #cccccc54;
+    border-radius: 18px;
+    height: 28px;
     padding: 5px;
+    margin: 20px;
 
     
   }
